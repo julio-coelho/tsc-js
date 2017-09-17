@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  "types": "index.d.ts",
   "scripts": {
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "dist/",
     "index.ts",
-    "index.d.ts"
+    "src/warsaw.ts",
+    "src/warsaw.d.ts",
+    "src/agentless.ts",
+    "src/agentless.d.ts"
   ],
   "repository": {
     "type": "git",
